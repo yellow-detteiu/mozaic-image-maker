@@ -4,7 +4,6 @@ let pixel_width;
 let pixel_height;
 let input;
 let save_button;
-let colorPicker;
 
 function setup() {
   canvas = createCanvas(1000, 1000);
@@ -62,7 +61,6 @@ function draw() {
       let pix_x = pixel_width.value();
       let pix_y = pixel_height.value();
 
-      let tint_color = colorPicker.value();
       //console.log(slider.value())
       //console.log(step)
 
