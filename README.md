@@ -7,3 +7,4 @@ p5.jsで作成した、ドット絵風の画像を作成できるアプリです
 あまり高画質で大きい画像だと、読み込むのに時間がかかるかもしれません。すみません。
 
 こちらで実行可能です。https://yellow-detteiu.github.io/mozaic-image-maker/
+実行速度の観点から、Chrome推奨です。
