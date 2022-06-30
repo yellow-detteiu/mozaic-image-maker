@@ -44,8 +44,8 @@ function setup() {
   textSize(width / 25);
   textAlign(CENTER, CENTER);
   fill(255);
-  text("好きな画像をドラッグ＆ドロップしてネ☆彡", width / 2, height / 4);
-  text("画像を保存したいときはクリックしてネ☆彡", width / 2, height / 3);
+  text("ボタンまたはドラッグ＆ドロップで画像選択", width / 2, height / 4);
+  text("--SAVE--ボタンで画像の保存", width / 2, height / 3);
 }
 
 function draw() {
