@@ -41,8 +41,6 @@ function setup() {
   save_button.position(width * 0.55, height * 0.1);
   save_button.size(100, 30);
   save_button.mousePressed(save_file);
-  colorPicker = createColorPicker("#ed225d");
-  colorPicker.position(width * 0.35, height * 0.15);
 
   textSize(width / 25);
   textAlign(CENTER, CENTER);
@@ -63,10 +61,6 @@ function draw() {
       // 各ピクセルの縦横を調整するための変数
       let pix_x = pixel_width.value();
       let pix_y = pixel_height.value();
-      // ピクセルの大きさの比率をそろえるための変数
-    //   let pix_size = pix_x + pix_y;
-    //   let pix_x_ratio = step * step / pix_y;
-    //   let pix_y_ratio = step * step / pix_x;
 
       let tint_color = colorPicker.value();
       //console.log(slider.value())
@@ -82,10 +76,6 @@ function draw() {
           rect(i, j, step * pix_x, step * pix_y);
         }
       }
-
-      blendMode(OVERLAY);
-      fill(tint_color);
-      rect(width, height);
     }
 }
 
